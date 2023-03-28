@@ -1,4 +1,5 @@
 // Load the http module to create an http server.
+// to start server, use npm run dev
 import http from 'http';
 import dotenv from 'dotenv';
 import greeting from './greeting.js';
