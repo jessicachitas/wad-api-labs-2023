@@ -2,8 +2,6 @@ import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-//... Code as before
-
 const MovieSchema = new Schema({
     id: Number,
     title: String
@@ -14,8 +12,5 @@ const MovieSchema = new Schema({
     password: {type: String, required: true },
     favourites: [MovieSchema]
   });
-  
-  // ..code as before
-  
 
 export default mongoose.model('User', UserSchema);
